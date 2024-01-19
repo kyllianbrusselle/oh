@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulaire de prise en charge</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="createclient.html">Créer un client</a></li>
+                <li class="active"><a href="pec.html">PEC</a></li>
+                <li><a href="Pageprincipale.php" class="liste">Prise en charge en cours</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Prise en charge :</h1>
+            
+        <form method="POST" action="pec.php">
+            <label for="recherche">Recherche :</label>
+            <input type="text" id="recherche" name="recherche" placeholder="Entrez le début du nom de famille" />
+            <input type="submit" value="Rechercher" />
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2023 Mon Application. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
